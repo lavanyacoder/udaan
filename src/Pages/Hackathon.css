@@ -1,0 +1,90 @@
+.hackathon-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding-top: 70px; /* Adjust as needed */
+}
+
+.hackathon-container h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 2.3rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #faf0f3;
+}
+
+.hackathon-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.hackathon-card {
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(10, 10, 10, 0.9));
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(254, 71, 254, 0.3);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid transparent;
+    width: 300px; /* Fixed width for consistent card sizing */
+    height: 240px;
+}
+
+.hackathon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.6);
+    border: 2px solid rgba(255, 0, 255, 0.7);
+}
+
+.hackathon-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #08eae3, #c8d3d6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hackathon-card p {
+    font-size: 1rem;
+    color: #ddd;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.apply-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #0fe1ec, #8e0527);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    max-width: 120px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.apply-btn:hover {
+    background: linear-gradient(90deg, #8e0527, #0fe1ec);
+    transform: translateX(-50%) scale(1.05);
+}

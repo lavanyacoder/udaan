@@ -1,0 +1,29 @@
+#calendar {
+    padding-top: 80px; /* Adjust as needed */
+  }
+/* Change year and month dropdown hover effect */
+.react-calendar__navigation button:hover {
+  background-color: rgb(109, 107, 107) !important;  /* Background turns black */
+  color: rgb(249, 242, 242) !important;  /* Text remains white */
+}
+
+/* Change hovered months and years in the dropdown */
+.react-calendar__year-view__months__month:hover,
+.react-calendar__decade-view__years__year:hover,
+.react-calendar__century-view__decades__decade:hover {
+  background-color: rgb(0, 0, 0) !important;  /* Background turns black */
+  color: rgb(255, 252, 252) !important;  /* Text remains white */
+}
+/* Change the text color of the navigation buttons (prev/next) and year heading */
+.react-calendar__navigation button {
+  color: rgb(0, 0, 0) !important; /* Make text black */
+  font-weight: bold;
+}
+
+/* Ensure the text color remains black when hovered or clicked */
+.react-calendar__navigation button:hover,
+.react-calendar__navigation button:focus,
+.react-calendar__navigation button:active {
+  color: black !important;
+}
+

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.full {
+    background-image: url('/src/assets/bgfinal.jpg');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Make section cover full screen */
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 80px;
+    margin: 0;
+    /* background-color: #2d2c2c;  */
+    background-color: rgb(56, 53, 53);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #e4f3f0;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ddd;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Cards Container */
+.opportunity-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    max-width: 1200px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(10, 10, 10, 0.9));
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(255, 0, 255, 0.3);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    max-width: 450px; 
+    width: 100%;
+    min-height: 280px; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid transparent;
+    position: relative;
+}
+.card-logo {
+    width: 60px; /* Adjust size */
+    height: auto;
+    margin: 10px auto; /* Spacing around the logo */
+    display: block; /* Center it */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);
+    border: 2px solid rgba(255, 0, 255, 0.7);
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* background: linear-gradient(90deg, #ff00ff, #00f0ff); */
+    background: linear-gradient(90deg, #08eae3, #c8d3d6);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+.apply-btn {
+    display: inline-block;
+    margin-top: 75px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* background: linear-gradient(90deg, #ff00ff, #00f0ff); */
+    background: linear-gradient(90deg, #0fe1ec, #8e0527);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .opportunity-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .opportunity-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

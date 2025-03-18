@@ -1,0 +1,16 @@
+.navbar-nav .nav-link {
+    background-color: rgb(59, 231, 231); 
+    color: black; 
+    padding: 5px 20px;
+    border-radius: 8px; /* Rounded corners */
+    width: 110px; 
+    text-align: center; /* Centers text */
+    display: inline-block; /* Ensures proper sizing */
+    transition: 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #1f2e30; /* Slightly darker cyan on hover */
+    color: white; /* White text on hover */
+  }
+  
