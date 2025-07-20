@@ -1,88 +1,46 @@
 const offerhub = [
-    {
-      id: 1,
-      name: "Goldman Sachs",
-      eligibility: "2025",
-      role: "Engineering Analyst",
-      applyLink: "https://bit.ly/4hcDWgh",
-    },
-    {
-      id: 2,
-      name: "Amazon",
-      eligibility: "2025",
-      role: "SDE",
-      applyLink: "https://bit.ly/4bNn26K",
-    },
-    {
-      id: 3,
-      name: "Lambda Test",
-      eligibility: "2024, 2025",
-      role: "SDE - 1",
-      applyLink: "https://lambdatest.keka.com/careers/jobdetails/78670",
-    },
-    {
-      id: 4,
-      name: "Microsoft",
-      eligibility: "2026, 2027",
-      role: "SDE Intern",
-      applyLink: "https://bit.ly/MicrosoftSDEIntern",
-    },
-    {
-      id: 5,
-      name: "Payoneer",
-      eligibility: "2025, 2026",
-      role: "SWE Intern",
-      applyLink: "https://bit.ly/3FunAm8",
-    },
-    {
-      id: 6,
-      name: "Equifax",
-      eligibility: "2024, 2025",
-      role: "SWE",
-      applyLink: "https://careers.equifax.com/en/jobs/j00164935/software-engineer-entry/",
-    },
-    {
-      id: 7,
-      name: "Sharechat",
-      eligibility: "2023, 2024, 2025",
-      role: "SDE - 1",
-      applyLink: "https://www.linkedin.com/jobs/view/4183582900",
-    },
-    {
-      id: 8,
-      name: "Nference",
-      eligibility: "2025, 2026, 2027",
-      role: "SWE Intern",
-      applyLink: "https://nference.keka.com/careers/jobdetails/17659",
-    },
-    {
-      id: 9,
-      name: "Nutrabay",
-      eligibility: "2025, 2026",
-      role: "SDE Intern",
-      applyLink: "https://nutrabay.keka.com/careers/jobdetails/75994",
-    },
-    {
-      id: 10,
-      name: "Jhonson Controls",
-      eligibility: "2025, 2026",
-      role: "AI-ML Intern",
-      applyLink: "https://jobs.johnsoncontrols.com/job/WD30234438",
-    },
-    {
-      id: 11,
-      name: "Officebanao",
-      eligibility: "2025, 2026",
-      role: "Frontend Dev Intern",
-      applyLink: "https://www.linkedin.com/jobs/view/4178751627",
-    },
-    {
-      id: 12,
-      name: "Synopsis",
-      eligibility: "2025",
-      role: "SDE Intern",
-      applyLink: "https://bit.ly/SynopsysIntern2025",
-    },
-  ];
-  
-  export default offerhub;
+  {
+    id: 1,
+    name: "Google",
+    eligibility: "2026",
+    role: "Software Engineering Intern",
+    applyLink: "https://lnkd.in/g-Ci5DVd"
+  },
+  {
+    id: 2,
+    name: "Zebra",
+    eligibility: "2023, 2024, 2025",
+    role: "Software Engineer",
+    applyLink: "https://zebra.eightfold.ai/careers?pid=343626459976&domain=zebra.com&sort_by=relevance"
+  },
+  {
+    id: 3,
+    name: "ShopOS",
+    eligibility: "2022, 2023, 2024",
+    role: "Frontend Engineer",
+    applyLink: "https://shopos.app.param.ai/jobs/frontend-engineer-867"
+  },
+  {
+    id: 4,
+    name: "ShopOS",
+    eligibility: "2022, 2023, 2024",
+    role: "AI Engineer",
+    applyLink: "https://shopos.app.param.ai/jobs/ai-engineer-793"
+  },
+  {
+    id: 5,
+    name: "ShopOS",
+    eligibility: "2022, 2023, 2024",
+    role: "Backend Engineer",
+    applyLink: "https://shopos.app.param.ai/jobs/backend-engineer-754"
+  },
+  {
+    id: 6,
+    name: "Deutsche Bank",
+    eligibility: "2023, 2024, 2025 (No prior job experience)",
+    role: "Technology Apprentice - Software or Support",
+    applyLink: "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Margarpatta/Apprentice-Role-for-Technology-hiring-2025---2026_R0390875"
+  }
+];
+
+export default offerhub;
