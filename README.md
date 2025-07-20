@@ -1,12 +1,47 @@
-# React + Vite
+# Udaan – Scholarships & Opportunities Platform
+Udaan is a student-focused web platform built using React.js, designed to help students discover and access scholarships, internships, and career opportunities – all in one place.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features
 
-Currently, two official plugins are available:
+## Opportunity Explorer
+- Scholarships, Internships & More: Curated listings categorized for easy browsing.
+- Search Functionality: Quickly find relevant programs with keywords.
+- Real-time Listings: Automatically fetch and display new opportunities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Responsive Design
+- Fully responsive across devices (desktop, tablet, mobile).
+- Built using Tailwind CSS for modern UI and consistent styling.
 
-## Expanding the ESLint configuration
+## External Integration (Future Scope)
+- Google Sheets or backend APIs to fetch and manage opportunity data.
+- Admin panel for posting/updating listings (planned).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technical Features
+- Frontend: React.js (Vite)
+- Styling: Tailwind CSS
+- Deployment: Vercel
+- Data Source: JSON-based dynamic rendering (can connect to Google Apps Script, Sheets, or APIs)
+
+📁 File Structure
+```
+
+udaan/
+├── public/                   # Static assets
+├── src/
+│   ├── components/           # Reusable components (Cards, Navbar, etc.)
+│   ├── pages/                # Main views (Home, Scholarships, Internships)
+│   ├── data/                 # JSON files for opportunities (optional backend)
+│   └── App.jsx               # Main app layout
+├── tailwind.config.js
+└── vite.config.js
+```
+## Live Demo
+🌐 udaan-beige.vercel.app
+
+## Future Enhancements
+- Admin dashboard for posting/updating opportunities
+- AI-based opportunity suggestions
+- Filters based on deadlines, eligibility, domain
+- Export/save favorite opportunities
+- Email notifications or alerts
+
