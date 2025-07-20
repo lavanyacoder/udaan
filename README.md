@@ -1,5 +1,5 @@
 # Udaan – Scholarships & Opportunities Platform
-Udaan is a student-focused web platform built using React.js, designed to help B.Tech students discover and access scholarships, internships, and career opportunities – all in one place.
+Udaan is a student-focused web platform built using React.js, designed to help students discover and access scholarships, internships, and career opportunities – all in one place.
 
 ### Features
 
