@@ -1,88 +1,46 @@
 const internships = [
   {
-      id: 2,
-      name: "Microsoft SDE Intern",
-      eligibility: "2026, 2027",
-      opening: "March",
-      applyLink: "https://bit.ly/MicrosoftSDEIntern"
+    id: 1,
+    name: "Airbus AI Engineering Intern",
+    eligibility: "2026",
+    opening: "July",
+    applyLink: "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship--AI_JR10327159"
   },
   {
-      id: 3,
-      name: "Nutrabay Software Engineering Intern",
-      eligibility: "2025, 2026",
-      opening: "March",
-      applyLink: "https://nutrabay.keka.com/careers/jobdetails/75994"
+    id: 2,
+    name: "Goldman Sachs Full Stack Software Internship",
+    eligibility: "Female candidates only, Freshers, Undergraduates",
+    opening: "July",
+    applyLink: "https://unstop.com/o/cmYupjA?lb=DJQSi8Ec&utm_medium=Share&utm_source=shortUrl"
   },
   {
-      id: 4,
-      name: "Payoneer Software Engineering Intern",
-      eligibility: "2025, 2026",
-      opening: "March",
-      applyLink: "https://bit.ly/3FunAm8"
+    id: 3,
+    name: "Quadeye Software Developer - Python",
+    eligibility: "2022, 2023, 2024, 2025",
+    opening: "July",
+    applyLink: "https://www.quadeye.com/careers/?gh_jid=5795180002&gh_src=4eab9f2d2"
   },
   {
-      id: 5,
-      name: "Summer Internship at IIIT Delhi",
-      eligibility: "All",
-      opening: "March",
-      applyLink: "https://www.iiitd.ac.in/placement/summer-internships"
+    id: 4,
+    name: "Unisys Technical Intern",
+    eligibility: "2026, 2027",
+    opening: "July",
+    Deadline: "25 July 2025",
+    applyLink: "https://lnkd.in/ehuw5Y8z"
   },
   {
-      id: 6,
-      name: "Goldman Sachs Engineering Analyst Intern",
-      eligibility: "2025",
-      opening: "March",
-      deadline: "23 March", 
-      applyLink: "https://bit.ly/4hcDWgh"
+    id: 5,
+    name: "Juspay Hiring Challenge",
+    eligibility: "2026",
+    opening: "July",
+    applyLink: "https://unstop.com/competitions/juspay-hiring-challenge-2025-juspay-1466934?lb=NcRhAyg"
   },
   {
-      id: 7,
-      name: "Amazon SDE Intern",
-      eligibility: "2025",
-      opening: "March",
-      applyLink: "https://lnkd.in/gJf8Ym3u"
-  },
-  {
-      id: 8,
-      name: "Lambda Test SDE-1 Intern",
-      eligibility: "2024, 2025",
-      opening: "March",
-      applyLink: "https://lambdatest.keka.com/careers/jobdetails/78670"
-  },
-  {
-      id: 9,
-      name: "Equifax SWE Intern",
-      eligibility: "2024, 2025",
-      opening: "March",
-      applyLink: "https://careers.equifax.com/en/jobs/j00164935/software-engineer-entry/"
-  },
-  {
-      id: 10,
-      name: "Nference SWE Intern",
-      eligibility: "2025, 2026, 2027",
-      opening: "March",
-      applyLink: "https://nference.keka.com/careers/jobdetails/17659"
-  },
-  {
-      id: 11,
-      name: "Johnson Controls AI-ML Intern",
-      eligibility: "2025, 2026",
-      opening: "March",
-      applyLink: "https://jobs.johnsoncontrols.com/job/WD30234438"
-  },
-  {
-      id: 12,
-      name: "Officebanao Frontend Dev Intern",
-      eligibility: "2025, 2026",
-      opening: "January",
-      applyLink: "https://www.linkedin.com/jobs/view/4178751627"
-  },
-  {
-      id: 13,
-      name: "Synopsys SDE Intern",
-      eligibility: "2025",
-      opening: "March",
-      applyLink: "https://bit.ly/SynopsysIntern2025"
+    id: 6,
+    name: "Zeotap SDE Intern",
+    eligibility: "2026, 2027",
+    opening: "July",
+    applyLink: "https://lnkd.in/gdyWS9Mr"
   }
 ];
 
