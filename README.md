@@ -24,9 +24,7 @@ Udaan is a student-focused web platform built using React.js, designed to help B
 
 📁 File Structure
 ```
-php
-Copy
-Edit
+
 udaan/
 ├── public/                   # Static assets
 ├── src/
